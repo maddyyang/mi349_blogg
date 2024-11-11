@@ -1,2 +1,2 @@
 // Add JavaScript below
-<link rel="stylesheet" href="style.css"></link>
+<link rel="stylesheet" href="screen.css"></link>
