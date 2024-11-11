@@ -105,7 +105,7 @@ a[href^="http"] {
     flex: 2;
 }
 
-.image-float {
+image-float {
     float: left;
     margin-right: 10px;
 }
