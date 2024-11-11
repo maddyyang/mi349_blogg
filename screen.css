@@ -1,4 +1,143 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-content {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+a[href^="http"] {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    background: #e2e2e2;
+    padding: 10px;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.flex-container > .content {
+    flex: 2;
+}
+
+.flex-container > .sidebar {
+    flex: 1;
+}
+
+.three-column {
+    display: flex;
+    gap: 20px;
+}
+
+.three-column > .left,
+.three-column > .right {
+    flex: 1;
+}
+
+.three-column > .center {
+    flex: 2;
+}
+
+.image-float {
+    float: left;
+    margin-right: 10px;
+}
+
+.caption {
+    font-size: 12px;
+    color: #666;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-container > label,
+.form-container > input,
+.form-container > textarea {
+    flex: 1 1 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #005f99;
 }
